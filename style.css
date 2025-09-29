@@ -3,24 +3,28 @@ body{
     background-image: url(https://album.mediaset.es/cimg/2017/02/03/Belen_Esteban.jpg);
     background-size: contain;
     background-repeat: no-repeat; */
-    background-color: lavender;
+    background-color: rgb(225, 252, 210);
     text-align: center;
-    color: darkslateblue;
+    color: rgb(104, 151, 116);
     font-size: larger;
     font-weight: 400;
 }
 h2{
-    background-color: rgb(240, 203, 255);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #cffdb1;
+  font-family: "Balthazar", serif;
+
     
 }
 #daDes_personals{
-    background-color: rgb(228, 188, 255);
-    text-align: left;
+    background-color: rgb(207, 255, 185);
+    text-align: center;
 }
 #dades_academiqes
-bac
-}
+
+
 .fondo_oscuro{
-    background-color: beige;
+    background-color: rgb(227, 255, 190);
+}
+#experiencia¨{
+
 }
