@@ -7,9 +7,23 @@ function canvifoto(){
     document.getElementById("foto").src = foto
 }    
 function Invisible(){
-    if(document.getElementById("foto").hidden == true){
-        document.getElementById("foto").hidden = false
-    }else{
-        document.getElementById("foto").hidden = true
+    document.getElementById("foto").style = "display: none"
     }
+
+function canviafons(){
+let body = document.getElementsByTagName("body")[0]
+    let foto = prompt("DONDE QUIERES VIAJAR :]?")
+    body.style = "background.image: url('"+foto+"'); background-size: cover;";
+}
+function Trdueix(){
+   let body = document.getElementsByTagName("body")[0]
+   body.style = "font-family: 'Balthazar' , Times, serif;"
+
+}
+
+function afegirInfo(){
+    let llista = document.getElementById("expL")
+    let element = document.createElement("li");
+    element.innerHTML = prompt("QUE VOLS AFEGIR?")
+    llista.appendChild(element)
 }
