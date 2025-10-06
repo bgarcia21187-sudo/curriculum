@@ -27,3 +27,8 @@ function afegirInfo(){
     element.innerHTML = prompt("QUE VOLS AFEGIR?")
     llista.appendChild(element)
 }
+function transportar(){
+   let foto = document.getElementById("foto").style = "display: left"
+
+}
+    
