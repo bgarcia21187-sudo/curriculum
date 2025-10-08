@@ -27,8 +27,11 @@ function afegirInfo(){
     element.innerHTML = prompt("QUE VOLS AFEGIR?")
     llista.appendChild(element)
 }
-function transportar(){
-   let foto = document.getElementById("foto").style = "display: left"
+function pitufo(){
+   document.getElementById("foto").style = "width: 5%"
+   
 
 }
-    
+function transportarse(){
+    document.getElementById("foto").style = "width:30%"
+}
